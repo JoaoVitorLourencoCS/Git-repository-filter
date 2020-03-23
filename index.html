@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get user repository</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-container">
+        <input id="input-user" type="text" placeholder="Enter a GitHub user">
+        <input id="search-user" type="button" value="Search user repositories" onclick="getInfo()">
+
+        <div id="rep-result"></div>
+        <div id="reps"></div>
+
+        <ul id="put-repos">
+
+        </ul>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
